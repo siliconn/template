@@ -10,9 +10,9 @@ OS-Q系统边缘端算力，支撑数据的深度和广度处理
 
 #### 控制节点：[Q1](https://github.com/OS-Q/Q1)
 
-### 边缘设备：[Edge-Q](https://github.com/OS-Q/Edge-Q)
+#### 边缘设备：[Edge-Q](https://github.com/OS-Q/Edge-Q)
 
-### 系统构建：[OS-Q](https://github.com/OS-Q/OS-Q)    更多可访问 www.OS-Q.com
+#### 系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ---
 
