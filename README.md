@@ -1,27 +1,41 @@
-﻿# Q3: [边缘计算节点](https://github.com/OS-Q/Q3) 
+﻿# Q3: [计算节点](https://github.com/OS-Q/Q3) 
 
-控制节点在OS-Q系统中连接物理世界
+计算节点在OS-Q系统中用于提供边缘端算力，支撑数据的深度和广度处理
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 更多关于：[OS-Q](https://github.com/OS-Q/OS-Q)可访问 www.OS-Q.com
+#### 区块分布：[Q4](https://github.com/OS-Q/Q4)
+
+#### 边缘网关：[Q2](https://github.com/OS-Q/Q2)
+
+#### 控制节点：[Q1](https://github.com/OS-Q/Q1)
+
+#### 系统设计：[OS-Q](https://github.com/OS-Q/OS-Q)可访问 www.OS-Q.com
 
 ---
 
-## 描述
+## [描述](https://github.com/OS-Q/Q3/wiki) 
 
-OS-Q系统的边缘计算平台，用于完成绝大部分的计算任务和数据处理，所有的算力具有弹性
+OS-Q系统的边缘算力组成，用于完成绝大部分的计算任务和数据处理，所有的算力具有弹性
 
 ---
 
-## 组成
+## 下级单元
 
-### [M7:安全验证节点](https://github.com/OS-Q/M7)
+### [M7信息安全](https://github.com/OS-Q/M7)
+
+数字安全管理设备，通过算力支撑相应安全算法工作，完成数据的加解密
  
-### [M8:模式处理节点](https://github.com/OS-Q/M8) 
+### [M8数据处理](https://github.com/OS-Q/M8) 
 
-### [M9:深度学习节点](https://github.com/OS-Q/M9) 
+用于处理文字内容，通过模式匹配，完成信息筛选过滤
+
+### [M9深度学习](https://github.com/OS-Q/M9)
+
+通过机器学习和相应模型，完成语音和图像信息的识别和处理
 
 ---
 
+###  锻造最美之器
 
+###  www.OS-Q.com     |    qitas@qitas.cn
