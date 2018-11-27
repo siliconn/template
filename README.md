@@ -1,12 +1,10 @@
 ﻿# Q3:[边缘计算](https://github.com/OS-Q/Q3) 
 
-OS-Q系统边缘端算力，支撑数据的深度和广度处理
-
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 分布计算：[Q4](https://github.com/OS-Q/Q4)
+#### 弹性计算：[Q4](https://github.com/OS-Q/Q4)
 
-#### 边缘网关：[Q2](https://github.com/OS-Q/Q2)
+#### 边缘通信：[Q2](https://github.com/OS-Q/Q2)
 
 #### 边缘控制：[Q1](https://github.com/OS-Q/Q1)
 
@@ -16,28 +14,54 @@ OS-Q系统边缘端算力，支撑数据的深度和广度处理
 
 ---
 
-## [描述](https://github.com/OS-Q/Q3/wiki) 
+## [体系简介](https://github.com/OS-Q/Q3/wiki) 
 
 OS-Q系统的边缘算力组成，用于完成绝大部分的计算任务和数据处理，所有的算力具有弹性
 
+OS-Q系统边缘端算力，支撑数据的深度和广度处理
+
+### 共用资源
+
+包括各种运算处理库和加密算法
+
+#### AES
+
+包括 AES256算法库
+
+#### RSA
+
+包括RSA 算法库
+
+#### HASH
+
+包括BLAKE2算法和SHA256
+
+```
+
+BLAKE2的定位是目前安全系数最高的哈希函数。BLAKE2是基于BLAKE实现的，BLAKE是2008年被提交至SHA-3竞赛的一种哈希函数。
+
+BLAKE2b是BLAKE的64位版本，它可以生成最高512位的任意长度哈希。BLAKE2s是BLAKE的32位版本，它可以生成最高256位的任意长度哈希。
+
+```
+
 ---
 
-## 组成单元
+## [组成节点](https://github.com/OS-Q/Q3/wiki/index) 
 
-#### M7:[信息安全](https://github.com/OS-Q/M7)
+#### M7:[信息过滤](https://github.com/OS-Q/M7)
 
-数字安全管理设备，通过算力支撑相应安全算法工作，完成数据的加解密
+安全管理和数据过滤，通过算力支撑相应安全算法工作，完成数据的加解密，过滤非权限数据
  
-#### M8:[数据处理](https://github.com/OS-Q/M8) 
+#### M8:[数据筛选](https://github.com/OS-Q/M8) 
 
-用于处理文字内容，通过模式匹配，完成信息筛选过滤
+通过确定的模式和机制进行匹配，处理目标数据获得目标信息
 
-#### M9:[深度学习](https://github.com/OS-Q/M9)
+#### M9:[深度运算](https://github.com/OS-Q/M9)
 
-通过机器学习和相应模型，完成语音和图像信息的识别和处理
+通过深度模型网络和概率，完成语音和图像等信息的识别和处理
 
 ---
 
-###  锻造最美之器
+###   [Q redefined the scope of operation system](https://github.com/OS-Q/OS-Q) 
 
-###  www.OS-Q.com     |    qitas@qitas.cn
+###  www.OS-Q.com   by:   qitas@qitas.cn
