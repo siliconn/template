@@ -10,35 +10,31 @@
 
 ## [体系描述](https://github.com/OS-Q/Q3/wiki) 
 
-Q3边缘计算体系，在边缘侧对数据进行实时处理判定，对应的输入为数据，输出为结论或行为
+Q3边缘计算体系，在边缘侧对数据进行实时处理
 
-### 共用资源
+### [共用资源](https://github.com/OS-Q/Q3/wiki)
 
-#### 功能接口
 
--  行为池
-
--  数据池
 
 ---
 
 边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
 
-## [包含节点](https://github.com/OS-Q/Q3/wiki/index) 
+## [包含节点](https://github.com/OS-Q/Q3/wiki/) 
 
-#### M7：[模式识别](https://github.com/OS-Q/M7)
+#### M7：[信息压缩](https://github.com/OS-Q/M7)
 
-模式识别节点，通过既定模式进行判断
+通过数据处理机制强化该数据特征（数据降维）
  
-#### M8：[流程匹配](https://github.com/OS-Q/M8) 
+#### M8：[特征识别](https://github.com/OS-Q/M8) 
 
-流程匹配节点，需要满足执行顺序特征，具有时间维度的匹配
+通过计算相应特征完成识别和确认（数据转换）
 
-#### M9：[概率判定](https://github.com/OS-Q/M9)
+#### M9：[机器学习](https://github.com/OS-Q/M9)
 
-概率判定节点，没有既定的判断条件和目标，通过机器学习获得概率最有解
+通过数据训练相应识别和处理模型（反馈激励）
 
-## [设备体系](https://github.com/OS-Q/Edge-Q/wiki/Q)
+## [设备体系](https://github.com/OS-Q/Edge-Q/wiki/)
 
 #### Q1：[边缘控制](https://github.com/OS-Q/Q1) 
 
@@ -60,6 +56,5 @@ Q3边缘计算体系，在边缘侧对数据进行实时处理判定，对应的
 
 ---
 
-###  [Q redefined the scope of operation system](http://www.OS-Q.com)
 ###  qitas@qitas.cn
-###  2018-11-28
+####  [Q redefined the scope of Operation System](http://www.OS-Q.com)
