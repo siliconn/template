@@ -10,11 +10,12 @@
 
 ## [体系描述](https://github.com/OS-Q/Q3/wiki) 
 
-Q3边缘计算体系，在边缘侧对数据进行实时处理
+Q3属于Q系统的边缘计算体系，部署在边缘侧即时对数据进行处理，包括三个节点，分别用于对系统进行维护和业务功能实现
 
 ### [共用资源](https://github.com/OS-Q/Q3/wiki)
 
-
+#### [同级协同接口](https://github.com/OS-Q/Q3/wiki)
+#### [控制指令输出](https://github.com/OS-Q/Q3/wiki)
 
 ---
 
@@ -22,17 +23,17 @@ Q3边缘计算体系，在边缘侧对数据进行实时处理
 
 ## [包含节点](https://github.com/OS-Q/Q3/wiki/) 
 
-#### M7：[信息压缩](https://github.com/OS-Q/M7)
+#### M7：[系统管理](https://github.com/OS-Q/M7)
 
-通过数据处理机制强化该数据特征（数据降维）
+用于管理各个节点，常态维护和异常处理
  
-#### M8：[特征识别](https://github.com/OS-Q/M8) 
+#### M8：[数据处理](https://github.com/OS-Q/M8) 
 
-通过计算相应特征完成识别和确认（数据转换）
+用于对数据进行特定算法处理的硬件平台
 
-#### M9：[机器学习](https://github.com/OS-Q/M9)
+#### M9：[深度分析](https://github.com/OS-Q/M9)
 
-通过数据训练相应识别和处理模型（反馈激励）
+用于部署相关深度模型扩展边缘计算功能
 
 ## [设备体系](https://github.com/OS-Q/Edge-Q/wiki/)
 
@@ -57,4 +58,5 @@ Q3边缘计算体系，在边缘侧对数据进行实时处理
 ---
 
 ###  qitas@qitas.cn
-####  [Q redefined the scope of Operation System](http://www.OS-Q.com)
+###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
+####  2018-12-7
