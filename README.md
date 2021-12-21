@@ -1,3 +1,6 @@
 ﻿# [template](https://github.com/sto-pi/template)
 
-[![KiCad CI/CD for Spora main board](https://github.com/sto-pi/kicad-ci-demo/workflows/KiCad%20CI/CD%20for%20Spora%20main%20board/badge.svg)](https://github.com/sto-pi/kicad-ci-demo/actions?query=workflow%3A%22KiCad+CI%2FCD+for+Spora+main+board%22)
+[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.STOPs.top)
+
+[![Build Status](https://github.com/sto-pi/template/workflows/kicad/badge.svg)](https://github.com/sto-pi/template/actions/workflows/kicad.yml)
+
