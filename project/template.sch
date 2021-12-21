@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "SPORA - MAIN PAGE"
+Title "Template - MAIN PAGE"
 Date "2021-11-22"
 Rev "0.1"
 Comp "STOPs"

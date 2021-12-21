@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: INTI-CMNB/KiBot@v1
+    - uses: sto-pi/KiBot@v1
       with:
         # Required - kibot config file
         config: project/template.kibot.yaml
@@ -37,7 +37,7 @@ jobs:
       if: ${{ always() }}
       uses: actions/upload-artifact@v2
       with:
-        name: Fabrication
+        name: TemplateFabrication
         path: |
           project/Fabrication/
         if-no-files-found: warn
