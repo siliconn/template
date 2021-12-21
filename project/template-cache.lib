@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# spora-rescue_+3.3V-RESCUE-versionA
+# template-rescue_+3.3V-RESCUE-versionA
 #
-DEF spora-rescue_+3.3V-RESCUE-versionA #PWR 0 0 Y Y 1 F P
+DEF template-rescue_+3.3V-RESCUE-versionA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "spora-rescue_+3.3V-RESCUE-versionA" 0 140 50 H V C CNN
+F1 "template-rescue_+3.3V-RESCUE-versionA" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_+VBAT
+# template-rescue_+VBAT
 #
-DEF spora-rescue_+VBAT #PWR 0 0 N Y 1 F P
+DEF template-rescue_+VBAT #PWR 0 0 N Y 1 F P
 F0 "#PWR" 0 -50 20 H I C CNN
-F1 "spora-rescue_+VBAT" 0 100 40 H V C CNN
+F1 "template-rescue_+VBAT" 0 100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -30,11 +30,11 @@ X +VBAT 1 0 0 0 U 20 30 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_BAT_CON
+# template-rescue_BAT_CON
 #
-DEF spora-rescue_BAT_CON BAT_CON 0 40 Y Y 1 F N
+DEF template-rescue_BAT_CON BAT_CON 0 40 Y Y 1 F N
 F0 "BAT_CON" 25 200 60 H V C CNN
-F1 "spora-rescue_BAT_CON" 0 -210 60 H V C CNN
+F1 "template-rescue_BAT_CON" 0 -210 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -57,11 +57,11 @@ X ~ 2 -200 -50 118 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_CONN_1
+# template-rescue_CONN_1
 #
-DEF spora-rescue_CONN_1 P 0 30 N N 1 F N
+DEF template-rescue_CONN_1 P 0 30 N N 1 F N
 F0 "P" 80 0 40 H V L CNN
-F1 "spora-rescue_CONN_1" 0 55 30 H I C CNN
+F1 "template-rescue_CONN_1" 0 55 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -71,11 +71,11 @@ X 1 1 -150 0 100 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_C_Small
+# template-rescue_C_Small
 #
-DEF spora-rescue_C_Small C 0 10 N N 1 F N
+DEF template-rescue_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "spora-rescue_C_Small" 10 -80 50 H V L CNN
+F1 "template-rescue_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -93,11 +93,11 @@ X ~ 2 0 -100 80 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_Crystal_Small
+# template-rescue_Crystal_Small
 #
-DEF spora-rescue_Crystal_Small Y 0 40 N N 1 F N
+DEF template-rescue_Crystal_Small Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "spora-rescue_Crystal_Small" 0 -100 50 H V C CNN
+F1 "template-rescue_Crystal_Small" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -112,11 +112,11 @@ X 2 2 100 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_DF12D-3.0-10DP-0.5V-81
+# template-rescue_DF12D-3.0-10DP-0.5V-81
 #
-DEF spora-rescue_DF12D-3.0-10DP-0.5V-81 J 0 40 Y Y 1 L N
+DEF template-rescue_DF12D-3.0-10DP-0.5V-81 J 0 40 Y Y 1 L N
 F0 "J" 200 250 60 H V L CNN
-F1 "spora-rescue_DF12D-3.0-10DP-0.5V-81" 200 150 60 H V L CNN
+F1 "template-rescue_DF12D-3.0-10DP-0.5V-81" 200 150 60 H V L CNN
 F2 "" 0 0 39 H V C CNN
 F3 "" 0 0 39 H V C CNN
 DRAW
@@ -134,11 +134,11 @@ X PB_3 9 1000 -100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_GND-RESCUE-versionA
+# template-rescue_GND-RESCUE-versionA
 #
-DEF spora-rescue_GND-RESCUE-versionA #PWR 0 0 Y Y 1 F P
+DEF template-rescue_GND-RESCUE-versionA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "spora-rescue_GND-RESCUE-versionA" 0 -150 50 H V C CNN
+F1 "template-rescue_GND-RESCUE-versionA" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -147,11 +147,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_GS2
+# template-rescue_GS2
 #
-DEF spora-rescue_GS2 GS 0 40 N N 1 F N
+DEF template-rescue_GS2 GS 0 40 N N 1 F N
 F0 "GS" 100 150 50 H V C CNN
-F1 "spora-rescue_GS2" 100 -149 40 H V C CNN
+F1 "template-rescue_GS2" 100 -149 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -162,11 +162,11 @@ X G2 2 0 -200 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_LBCA2HNZYZ-711
+# template-rescue_LBCA2HNZYZ-711
 #
-DEF spora-rescue_LBCA2HNZYZ-711 U 0 40 Y Y 1 L N
+DEF template-rescue_LBCA2HNZYZ-711 U 0 40 Y Y 1 L N
 F0 "U" -150 800 60 H V R CNN
-F1 "spora-rescue_LBCA2HNZYZ-711" 500 700 60 H V R CNN
+F1 "template-rescue_LBCA2HNZYZ-711" 500 700 60 H V R CNN
 F2 "" 0 -1000 60 H V C CNN
 F3 "" 0 -1000 60 H V C CNN
 DRAW
@@ -211,11 +211,11 @@ X XTAL32KP 9 0 200 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_LED_RABG
+# template-rescue_LED_RABG
 #
-DEF spora-rescue_LED_RABG D 0 50 Y N 1 F N
+DEF template-rescue_LED_RABG D 0 50 Y N 1 F N
 F0 "D" 75 350 50 H V C CNN
-F1 "spora-rescue_LED_RABG" 25 -350 50 H V C CNN
+F1 "template-rescue_LED_RABG" 25 -350 50 H V C CNN
 F2 "" -50 -50 50 H V C CNN
 F3 "" -50 -50 50 H V C CNN
 DRAW
@@ -248,11 +248,11 @@ X BLUE_CATHODE 4 -300 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_LOGO_INTI
+# template-rescue_LOGO_INTI
 #
-DEF spora-rescue_LOGO_INTI G 0 40 Y Y 1 F N
+DEF template-rescue_LOGO_INTI G 0 40 Y Y 1 F N
 F0 "G" 0 -303 60 H I C CNN
-F1 "spora-rescue_LOGO_INTI" 0 303 60 H I C CNN
+F1 "template-rescue_LOGO_INTI" 0 303 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -316,11 +316,11 @@ P 88 0 0 1 221 90 220 123 213 157 211 162 211 92 210 69 203 34 191 1 173 -30 148
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_MCP73831
+# template-rescue_MCP73831
 #
-DEF spora-rescue_MCP73831 U 0 40 Y Y 1 L N
+DEF template-rescue_MCP73831 U 0 40 Y Y 1 L N
 F0 "U" -300 450 60 H V R CNN
-F1 "spora-rescue_MCP73831" 50 350 60 H V R CNN
+F1 "template-rescue_MCP73831" 50 350 60 H V R CNN
 F2 "" -600 0 39 H V C CNN
 F3 "" -600 0 39 H V C CNN
 DRAW
@@ -337,11 +337,11 @@ X EP 9 50 -600 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_MKL03Z32CAF4R
+# template-rescue_MKL03Z32CAF4R
 #
-DEF spora-rescue_MKL03Z32CAF4R U 0 40 Y Y 1 L N
+DEF template-rescue_MKL03Z32CAF4R U 0 40 Y Y 1 L N
 F0 "U" 200 250 60 H V L CNN
-F1 "spora-rescue_MKL03Z32CAF4R" 200 150 60 H V L CNN
+F1 "template-rescue_MKL03Z32CAF4R" 200 150 60 H V L CNN
 F2 "" 0 -500 60 H V C CNN
 F3 "" 0 -500 60 H V C CNN
 DRAW
@@ -369,11 +369,11 @@ X PTA6/TPM0_CH0 D5 2100 -1000 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_MPU-9250
+# template-rescue_MPU-9250
 #
-DEF spora-rescue_MPU-9250 U 0 40 Y Y 1 L N
+DEF template-rescue_MPU-9250 U 0 40 Y Y 1 L N
 F0 "U" -650 850 60 H V R CNN
-F1 "spora-rescue_MPU-9250" -250 750 60 H V R CNN
+F1 "template-rescue_MPU-9250" -250 750 60 H V R CNN
 F2 "" 950 0 60 H V C CNN
 F3 "" 950 0 60 H V C CNN
 DRAW
@@ -405,11 +405,11 @@ X AD0/SD0 9 -950 -350 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_PWR_FLAG
+# template-rescue_PWR_FLAG
 #
-DEF spora-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF template-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 95 50 H I C CNN
-F1 "spora-rescue_PWR_FLAG" 0 180 50 H V C CNN
+F1 "template-rescue_PWR_FLAG" 0 180 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -418,11 +418,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_R_Small
+# template-rescue_R_Small
 #
-DEF spora-rescue_R_Small R 0 10 N N 1 F N
+DEF template-rescue_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "spora-rescue_R_Small" 30 -40 50 H V L CNN
+F1 "template-rescue_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -436,11 +436,11 @@ X ~ 2 0 -100 30 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_SIDE_WTCM-TR(3x4)
+# template-rescue_SIDE_WTCM-TR(3x4)
 #
-DEF spora-rescue_SIDE_WTCM-TR(3x4) SW 0 40 Y Y 1 F N
+DEF template-rescue_SIDE_WTCM-TR(3x4) SW 0 40 Y Y 1 F N
 F0 "SW" -160 110 60 H V C CNN
-F1 "spora-rescue_SIDE_WTCM-TR(3x4)" 570 110 60 H V C CNN
+F1 "template-rescue_SIDE_WTCM-TR(3x4)" 570 110 60 H V C CNN
 F2 "" -1 38 60 H V C CNN
 F3 "" -1 38 60 H V C CNN
 DRAW
@@ -455,11 +455,11 @@ X ~ 2 200 0 102 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_TESTPOINT
+# template-rescue_TESTPOINT
 #
-DEF spora-rescue_TESTPOINT TP 0 30 N N 1 F N
+DEF template-rescue_TESTPOINT TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "spora-rescue_TESTPOINT" 0 200 50 H V C CNN
+F1 "template-rescue_TESTPOINT" 0 200 50 H V C CNN
 F2 "" 200 0 50 H V C CNN
 F3 "" 200 0 50 H V C CNN
 DRAW
@@ -468,11 +468,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_TPS2115a
+# template-rescue_TPS2115a
 #
-DEF spora-rescue_TPS2115a U 0 40 Y Y 1 L N
+DEF template-rescue_TPS2115a U 0 40 Y Y 1 L N
 F0 "U" 200 250 60 H V L CNN
-F1 "spora-rescue_TPS2115a" 200 150 60 H V L CNN
+F1 "template-rescue_TPS2115a" 200 150 60 H V L CNN
 F2 "" 0 0 39 H V C CNN
 F3 "" 0 0 39 H V C CNN
 DRAW
@@ -489,11 +489,11 @@ X GND 9 600 -900 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_TPS82740B
+# template-rescue_TPS82740B
 #
-DEF spora-rescue_TPS82740B U 0 40 Y Y 1 L N
+DEF template-rescue_TPS82740B U 0 40 Y Y 1 L N
 F0 "U" 200 250 60 H V L CNN
-F1 "spora-rescue_TPS82740B" 200 150 60 H V L CNN
+F1 "template-rescue_TPS82740B" 200 150 60 H V L CNN
 F2 "" 0 -150 60 H V C CNN
 F3 "" 0 -150 60 H V C CNN
 DRAW
@@ -510,11 +510,11 @@ X VIN C3 0 -150 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_USB-MINI
+# template-rescue_USB-MINI
 #
-DEF spora-rescue_USB-MINI USB 0 40 Y Y 1 F N
+DEF template-rescue_USB-MINI USB 0 40 Y Y 1 F N
 F0 "USB" -175 325 60 H V C CNN
-F1 "spora-rescue_USB-MINI" -300 -350 60 H V C CNN
+F1 "template-rescue_USB-MINI" -300 -350 60 H V C CNN
 F2 "" 100 0 60 H V C CNN
 F3 "" 100 0 60 H V C CNN
 DRAW
@@ -531,11 +531,11 @@ X GND 5 -300 -200 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# spora-rescue_ZENER-RESCUE-versionA
+# template-rescue_ZENER-RESCUE-versionA
 #
-DEF spora-rescue_ZENER-RESCUE-versionA D 0 40 N N 1 F N
+DEF template-rescue_ZENER-RESCUE-versionA D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "spora-rescue_ZENER-RESCUE-versionA" 0 -100 50 H V C CNN
+F1 "template-rescue_ZENER-RESCUE-versionA" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST

@@ -1,9 +1,9 @@
 #!/usr/bin/make
 DEBUG=
 MAK=kibot.mak
-CONFIG=spora.kibot.yaml
-SCH=spora.sch
-PCB=spora.kicad_pcb
+CONFIG=template.kibot.yaml
+SCH=template.sch
+PCB=template.kicad_pcb
 DEST=Fabrication
 
 all: erc_and_fab drc_and_fab

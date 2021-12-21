@@ -26,13 +26,13 @@ jobs:
     - uses: INTI-CMNB/KiBot@v1
       with:
         # Required - kibot config file
-        config: project/spora.kibot.yaml
+        config: project/template.kibot.yaml
         # optional - prefix to output defined in config
         dir: project/Fabrication
         # optional - schematic file
-        schema: 'project/spora.sch'
+        schema: 'project/template.sch'
         # optional - PCB design file
-        board: 'project/spora.kicad_pcb'
+        board: 'project/template.kicad_pcb'
     - name: Retrieve results
       if: ${{ always() }}
       uses: actions/upload-artifact@v2

@@ -1,0 +1,1693 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title "SPORA - MAIN PAGE"
+Date "2017-01-02"
+Rev "0.1"
+Comp "INSTITUTO NACIONAL DE TECNOLOGÍA INDUSTRIAL & ENYE TECHNOLOGIES"
+Comment1 "Revisions: Alamon Diego, Brengi Diego, Scotti Noelia "
+Comment2 "BSD License.  See LICENSE.txt file"
+Comment3 "Author:  Villar Santiago"
+Comment4 ""
+$EndDescr
+$Comp
+L template-rescue:PWR_FLAG #FLG01
+U 1 1 57A25A5E
+P 6000 7150
+F 0 "#FLG01" H 6000 7245 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 7330 50  0000 C CNN
+F 2 "" H 6000 7150 50  0000 C CNN
+F 3 "" H 6000 7150 50  0000 C CNN
+	1    6000 7150
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:PWR_FLAG #FLG02
+U 1 1 57A25AB2
+P 6000 7500
+F 0 "#FLG02" H 6000 7595 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 7680 50  0000 C CNN
+F 2 "" H 6000 7500 50  0000 C CNN
+F 3 "" H 6000 7500 50  0000 C CNN
+	1    6000 7500
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR03
+U 1 1 57A2712F
+P 6350 7500
+F 0 "#PWR03" H 6350 7250 50  0001 C CNN
+F 1 "GND" H 6350 7350 50  0000 C CNN
+F 2 "" H 6350 7500 50  0000 C CNN
+F 3 "" H 6350 7500 50  0000 C CNN
+	1    6350 7500
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+VBAT #PWR04
+U 1 1 57A28887
+P 6350 7150
+F 0 "#PWR04" H 6350 7000 50  0001 C CNN
+F 1 "+VBAT" H 6350 7300 50  0000 C CNN
+F 2 "" H 6350 7150 50  0000 C CNN
+F 3 "" H 6350 7150 50  0000 C CNN
+	1    6350 7150
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:C_Small C14
+U 1 1 57A391F9
+P 10650 3200
+F 0 "C14" H 10700 3250 50  0000 L CNN
+F 1 "10nF" H 10700 3100 50  0000 L CNN
+F 2 "footprints:c_0201" H 10650 3200 50  0001 C CNN
+F 3 "" H 10650 3200 50  0000 C CNN
+F 4 "10000pF 10V Ceramic Capacitor X5R 0201" H 400 -550 50  0001 C CNN "Desc"
+F 5 "490-3166-1-ND" H 400 -550 50  0001 C CNN "digikey#"
+F 6 "Murata Electronics North America" H 400 -550 50  0001 C CNN "manf"
+F 7 "GRM033R61A103KA01D" H 10650 3200 60  0001 C CNN "manf#"
+	1    10650 3200
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:C_Small C15
+U 1 1 57A392F6
+P 7650 4150
+F 0 "C15" H 7700 4200 50  0000 L CNN
+F 1 "0.1uF" H 7700 4050 50  0000 L CNN
+F 2 "footprints:c_0201" H 7650 4150 50  0001 C CNN
+F 3 "" H 7650 4150 50  0000 C CNN
+F 4 "0.10uF 10V Ceramic Capacitor X5R 0201" H 350 -550 50  0001 C CNN "Desc"
+F 5 "490-5405-1-ND" H 350 -550 50  0001 C CNN "digikey#"
+F 6 "Murata Electronics North America" H 350 -550 50  0001 C CNN "manf"
+F 7 "GRM033R61A104ME15D" H 7650 4150 60  0001 C CNN "manf#"
+	1    7650 4150
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:C_Small C12
+U 1 1 57A39379
+P 11000 3100
+F 0 "C12" H 11050 3150 50  0000 L CNN
+F 1 "0.1uF" H 11000 3000 50  0000 L CNN
+F 2 "footprints:c_0201" H 11000 3100 50  0001 C CNN
+F 3 "" H 11000 3100 50  0000 C CNN
+F 4 "0.10uF 10V Ceramic Capacitor X5R 0201" H 500 -550 50  0001 C CNN "Desc"
+F 5 "490-5405-1-ND" H 500 -550 50  0001 C CNN "digikey#"
+F 6 "Murata Electronics North America" H 500 -550 50  0001 C CNN "manf"
+F 7 "GRM033R61A104ME15D" H 11000 3100 60  0001 C CNN "manf#"
+	1    11000 3100
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR05
+U 1 1 57A3F467
+P 1250 4950
+F 0 "#PWR05" H 1250 4700 50  0001 C CNN
+F 1 "GND" H 1250 4800 50  0000 C CNN
+F 2 "" H 1250 4950 50  0000 C CNN
+F 3 "" H 1250 4950 50  0000 C CNN
+	1    1250 4950
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR06
+U 1 1 57A50B24
+P 4200 4050
+F 0 "#PWR06" H 4200 3800 50  0001 C CNN
+F 1 "GND" H 4200 3900 50  0000 C CNN
+F 2 "" H 4200 4050 50  0000 C CNN
+F 3 "" H 4200 4050 50  0000 C CNN
+	1    4200 4050
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:MPU-9250 U6
+U 1 1 57A51A96
+P 9350 3450
+F 0 "U6" H 8700 4300 60  0000 R CNN
+F 1 "MPU-9250" H 9100 4200 60  0000 R CNN
+F 2 "footprints:MPU-9250" H 9350 3450 60  0001 C CNN
+F 3 "" H 9350 3450 60  0000 C CNN
+F 4 "Accelerometer, Gyroscope, Magnetometer, 3 Axis Sensor I2C, SPI Output" H 400 -550 50  0001 C CNN "Desc"
+F 5 "1428-1019-1-ND" H 400 -550 50  0001 C CNN "digikey#"
+F 6 "InvenSense" H 400 -550 50  0001 C CNN "manf"
+F 7 "MPU-9250" H 9350 3450 60  0001 C CNN "manf#"
+	1    9350 3450
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR07
+U 1 1 57A526D9
+P 10600 4050
+F 0 "#PWR07" H 10600 3800 50  0001 C CNN
+F 1 "GND" H 10600 3900 50  0000 C CNN
+F 2 "" H 10600 4050 50  0000 C CNN
+F 3 "" H 10600 4050 50  0000 C CNN
+	1    10600 4050
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR08
+U 1 1 57A52ADE
+P 11000 3350
+F 0 "#PWR08" H 11000 3100 50  0001 C CNN
+F 1 "GND" H 11000 3200 50  0000 C CNN
+F 2 "" H 11000 3350 50  0000 C CNN
+F 3 "" H 11000 3350 50  0000 C CNN
+	1    11000 3350
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR09
+U 1 1 57A52DA8
+P 7650 4300
+F 0 "#PWR09" H 7650 4050 50  0001 C CNN
+F 1 "GND" H 7650 4150 50  0000 C CNN
+F 2 "" H 7650 4300 50  0000 C CNN
+F 3 "" H 7650 4300 50  0000 C CNN
+	1    7650 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR010
+U 1 1 57A53476
+P 10650 3350
+F 0 "#PWR010" H 10650 3100 50  0001 C CNN
+F 1 "GND" H 10650 3200 50  0000 C CNN
+F 2 "" H 10650 3350 50  0000 C CNN
+F 3 "" H 10650 3350 50  0000 C CNN
+	1    10650 3350
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR011
+U 1 1 57A54403
+P 10650 3750
+F 0 "#PWR011" H 10650 3500 50  0001 C CNN
+F 1 "GND" H 10650 3600 50  0000 C CNN
+F 2 "" H 10650 3750 50  0000 C CNN
+F 3 "" H 10650 3750 50  0000 C CNN
+	1    10650 3750
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR012
+U 1 1 57A909A5
+P 4200 7450
+F 0 "#PWR012" H 4200 7200 50  0001 C CNN
+F 1 "GND" H 4200 7300 50  0000 C CNN
+F 2 "" H 4200 7450 50  0000 C CNN
+F 3 "" H 4200 7450 50  0000 C CNN
+	1    4200 7450
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:R_Small R10
+U 1 1 57A93A03
+P 10100 5800
+F 0 "R10" V 10050 5550 50  0000 L CNN
+F 1 "330" V 10150 5550 50  0000 L CNN
+F 2 "footprints:r_0201" H 10100 5800 50  0001 C CNN
+F 3 "" H 10100 5800 50  0000 C CNN
+F 4 "RES SMD 330 OHM 5% 1/20W 0201 " H 2000 -50 50  0001 C CNN "Desc"
+F 5 "311-330NCT-ND " H 2000 -50 50  0001 C CNN "digikey#"
+F 6 "Yageo" H 2000 -50 50  0001 C CNN "manf"
+F 7 "RC0201JR-07330RL " V 10100 5800 60  0001 C CNN "manf#"
+	1    10100 5800
+	0    1    1    0
+$EndComp
+$Comp
+L template-rescue:R_Small R13
+U 1 1 57A93BBC
+P 10100 6200
+F 0 "R13" V 10050 5950 50  0000 L CNN
+F 1 "220" V 10150 5950 50  0000 L CNN
+F 2 "footprints:r_0201" H 10100 6200 50  0001 C CNN
+F 3 "" H 10100 6200 50  0000 C CNN
+F 4 "RES SMD 220 OHM 5 1/20W 0201" H 2000 -50 50  0001 C CNN "Desc"
+F 5 "311-220NCT-ND" H 2000 -50 50  0001 C CNN "digikey#"
+F 6 "Yageo" H 2000 -50 50  0001 C CNN "manf"
+F 7 "RC0201JR-07220RL" V 10100 6200 60  0001 C CNN "manf#"
+	1    10100 6200
+	0    1    1    0
+$EndComp
+$Comp
+L template-rescue:C_Small C9
+U 1 1 57B51492
+P 7300 5000
+F 0 "C9" H 7400 5050 50  0000 L CNN
+F 1 "0.1uF" H 7400 4900 50  0000 L CNN
+F 2 "footprints:c_0201" H 7300 5000 50  0001 C CNN
+F 3 "" H 7300 5000 50  0000 C CNN
+F 4 "0.10uF 10V Ceramic Capacitor X5R 0201" H 700 2250 50  0001 C CNN "Desc"
+F 5 "490-5405-1-ND" H 700 2250 50  0001 C CNN "digikey#"
+F 6 "Murata Electronics North America" H 700 2250 50  0001 C CNN "manf"
+F 7 "GRM033R61A104ME15D" H 7300 5000 60  0001 C CNN "manf#"
+	1    7300 5000
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:C_Small C8
+U 1 1 57B51499
+P 7050 5000
+F 0 "C8" H 6850 5050 50  0000 L CNN
+F 1 "1uF" H 6850 4900 50  0000 L CNN
+F 2 "footprints:c_0201" H 7050 5000 50  0001 C CNN
+F 3 "" H 7050 5000 50  0000 C CNN
+F 4 "1uF 10V Ceramic Capacitor X5R 0201" H 700 2250 50  0001 C CNN "Desc"
+F 5 "1276-6816-1-ND" H 700 2250 50  0001 C CNN "digikey#"
+F 6 "Samsung Electro-Mechanics America, Inc." H 700 2250 50  0001 C CNN "manf"
+F 7 "CL03A105MP3ZSNH" H 7050 5000 60  0001 C CNN "manf#"
+	1    7050 5000
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR013
+U 1 1 57B514A6
+P 7050 5200
+F 0 "#PWR013" H 7050 4950 50  0001 C CNN
+F 1 "GND" H 7050 5050 50  0000 C CNN
+F 2 "" H 7050 5200 50  0000 C CNN
+F 3 "" H 7050 5200 50  0000 C CNN
+	1    7050 5200
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:C_Small C11
+U 1 1 57B5156F
+P 3700 4900
+F 0 "C11" H 3800 4950 50  0000 L CNN
+F 1 "0.1uF" H 3800 4800 50  0000 L CNN
+F 2 "footprints:c_0201" H 3700 4900 50  0001 C CNN
+F 3 "" H 3700 4900 50  0000 C CNN
+F 4 "0.10uF 10V Ceramic Capacitor X5R 0201" H 350 2100 50  0001 C CNN "Desc"
+F 5 "490-5405-1-ND" H 350 2100 50  0001 C CNN "digikey#"
+F 6 "Murata Electronics North America" H 350 2100 50  0001 C CNN "manf"
+F 7 "GRM033R61A104ME15D" H 3700 4900 60  0001 C CNN "manf#"
+	1    3700 4900
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:C_Small C10
+U 1 1 57B51576
+P 3450 4900
+F 0 "C10" H 3200 4950 50  0000 L CNN
+F 1 "1uF" H 3200 4800 50  0000 L CNN
+F 2 "footprints:c_0201" H 3450 4900 50  0001 C CNN
+F 3 "" H 3450 4900 50  0000 C CNN
+F 4 "1uF 10V Ceramic Capacitor X5R 0201" H 350 2100 50  0001 C CNN "Desc"
+F 5 "1276-6816-1-ND" H 350 2100 50  0001 C CNN "digikey#"
+F 6 "Samsung Electro-Mechanics America, Inc." H 350 2100 50  0001 C CNN "manf"
+F 7 "CL03A105MP3ZSNH" H 3450 4900 60  0001 C CNN "manf#"
+	1    3450 4900
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR014
+U 1 1 57B51583
+P 3450 5100
+F 0 "#PWR014" H 3450 4850 50  0001 C CNN
+F 1 "GND" H 3450 4950 50  0000 C CNN
+F 2 "" H 3450 5100 50  0000 C CNN
+F 3 "" H 3450 5100 50  0000 C CNN
+	1    3450 5100
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:LED_RABG D2
+U 1 1 57C8AC7F
+P 10600 6000
+F 0 "D2" H 10500 6350 50  0000 C CNN
+F 1 "LED_RABG" H 10625 5650 50  0000 C CNN
+F 2 "footprints:SML-LX0404SIUPGUSB" H 10550 5950 50  0001 C CNN
+F 3 "" H 10550 5950 50  0000 C CNN
+F 4 "(RGB) LED Indication" H 2000 -50 50  0001 C CNN "Desc"
+F 5 "67-2125-1-ND" H 2000 -50 50  0001 C CNN "digikey#"
+F 6 "Lumex Opto/Components Inc. " H 2000 -50 50  0001 C CNN "manf"
+F 7 "SML-LX0404SIUPGUSB" H 10600 6000 60  0001 C CNN "manf#"
+	1    10600 6000
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR015
+U 1 1 57D9A2B2
+P 10600 1700
+F 0 "#PWR015" H 10600 1450 50  0001 C CNN
+F 1 "GND" H 10600 1550 50  0000 C CNN
+F 2 "" H 10600 1700 50  0000 C CNN
+F 3 "" H 10600 1700 50  0000 C CNN
+	1    10600 1700
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:R_Small R9
+U 1 1 57D9A2B8
+P 9950 1100
+F 0 "R9" H 9800 1000 50  0000 L CNN
+F 1 "10K" H 9750 1150 50  0000 L CNN
+F 2 "footprints:r_0201" H 9950 1100 50  0001 C CNN
+F 3 "" H 9950 1100 50  0000 C CNN
+F 4 "RES SMD 10K OHM 5% 1/20W 0201" H 250 -4550 50  0001 C CNN "Desc"
+F 5 "311-10KNCT-ND" H 250 -4550 50  0001 C CNN "digikey#"
+F 6 "Yageo" H 250 -4550 50  0001 C CNN "manf"
+F 7 "RC0201JR-0710KL" H 9950 1100 60  0001 C CNN "manf#"
+	1    9950 1100
+	-1   0    0    1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR016
+U 1 1 57E2E5EC
+P 7950 4300
+F 0 "#PWR016" H 7950 4050 50  0001 C CNN
+F 1 "GND" H 7950 4150 50  0000 C CNN
+F 2 "" H 7950 4300 50  0000 C CNN
+F 3 "" H 7950 4300 50  0000 C CNN
+	1    7950 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:R_Small R8
+U 1 1 57E4768E
+P 5250 5150
+F 0 "R8" H 5050 5050 50  0000 L CNN
+F 1 "4.7K" H 5000 5250 50  0000 L CNN
+F 2 "footprints:r_0201" H 5250 5150 50  0001 C CNN
+F 3 "" H 5250 5150 50  0000 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/20W 0201" H 1100 -250 50  0001 C CNN "Desc"
+F 5 "311-4.7KNCT-ND" H 1100 -250 50  0001 C CNN "digikey#"
+F 6 "Yageo" H 1100 -250 50  0001 C CNN "manf"
+F 7 "RC0201JR-074K7L" H 5250 5150 60  0001 C CNN "manf#"
+	1    5250 5150
+	-1   0    0    1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR017
+U 1 1 57E47CE7
+P 5650 6000
+F 0 "#PWR017" H 5650 5750 50  0001 C CNN
+F 1 "GND" H 5650 5850 50  0000 C CNN
+F 2 "" H 5650 6000 50  0000 C CNN
+F 3 "" H 5650 6000 50  0000 C CNN
+	1    5650 6000
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GS2 GS2
+U 1 1 57E4A0D3
+P 5650 5750
+F 0 "GS2" H 5800 5900 50  0000 C CNN
+F 1 "Rest_MCU" H 5900 5600 50  0000 C CNN
+F 2 "footprints:GS2" H 5950 5750 50  0001 C CNN
+F 3 "" H 5650 5750 50  0000 C CNN
+F 4 "Pad para poder reemplazar boton de reset" H 1250 -150 50  0001 C CNN "Desc"
+	1    5650 5750
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:C_Small C16
+U 1 1 57E50F6B
+P 5250 5650
+F 0 "C16" H 5350 5700 50  0000 L CNN
+F 1 "0.1uF" H 5350 5550 50  0000 L CNN
+F 2 "footprints:c_0201" H 5250 5650 50  0001 C CNN
+F 3 "" H 5250 5650 50  0000 C CNN
+F 4 "0.10uF 10V Ceramic Capacitor X5R 0201" H 1100 -150 50  0001 C CNN "Desc"
+F 5 " 490-5405-1-ND" H 1100 -150 50  0001 C CNN "digikey#"
+F 6 "Murata Electronics North America" H 1100 -150 50  0001 C CNN "manf"
+F 7 "GRM033R61A104ME15D" H 5250 5650 60  0001 C CNN "manf#"
+	1    5250 5650
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR018
+U 1 1 57E5100C
+P 5250 6000
+F 0 "#PWR018" H 5250 5750 50  0001 C CNN
+F 1 "GND" H 5250 5850 50  0000 C CNN
+F 2 "" H 5250 6000 50  0000 C CNN
+F 3 "" H 5250 6000 50  0000 C CNN
+	1    5250 6000
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:C_Small C13
+U 1 1 57EAD06B
+P 700 3150
+F 0 "C13" H 800 3200 50  0000 L CNN
+F 1 "2.2uF" H 800 3050 50  0000 L CNN
+F 2 "footprints:c_0201" H 700 3150 50  0001 C CNN
+F 3 "" H 700 3150 50  0000 C CNN
+F 4 "2.2uF 6.3V Ceramic Capacitor X5R 0201" H 0   -550 50  0001 C CNN "Desc"
+F 5 "490-13224-1-ND" H 0   -550 50  0001 C CNN "digikey#"
+F 6 "Murata Electronics North America" H 0   -550 50  0001 C CNN "manf"
+F 7 "GRM033R60J225ME15D" H 700 3150 60  0001 C CNN "manf#"
+	1    700  3150
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR019
+U 1 1 57EAD0C1
+P 700 3400
+F 0 "#PWR019" H 700 3150 50  0001 C CNN
+F 1 "GND" H 700 3250 50  0000 C CNN
+F 2 "" H 700 3400 50  0000 C CNN
+F 3 "" H 700 3400 50  0000 C CNN
+	1    700  3400
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:C_Small C17
+U 1 1 57EE26A0
+P 9950 1500
+F 0 "C17" H 10050 1550 50  0000 L CNN
+F 1 "0.1uF" H 10050 1400 50  0000 L CNN
+F 2 "footprints:c_0201" H 9950 1500 50  0001 C CNN
+F 3 "" H 9950 1500 50  0000 C CNN
+F 4 "0.10uF 10V Ceramic Capacitor X5R 0201" H 250 -4550 50  0001 C CNN "Desc"
+F 5 " 490-5405-1-ND" H 250 -4550 50  0001 C CNN "digikey#"
+F 6 "Murata Electronics North America" H 250 -4550 50  0001 C CNN "manf"
+F 7 "GRM033R61A104ME15D" H 9950 1500 60  0001 C CNN "manf#"
+	1    9950 1500
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR020
+U 1 1 57EE26A6
+P 9950 1700
+F 0 "#PWR020" H 9950 1450 50  0001 C CNN
+F 1 "GND" H 9950 1550 50  0000 C CNN
+F 2 "" H 9950 1700 50  0000 C CNN
+F 3 "" H 9950 1700 50  0000 C CNN
+	1    9950 1700
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:SIDE_WTCM-TR(3x4) SW1
+U 1 1 57EE3C6D
+P 10350 1300
+F 0 "SW1" H 10350 1550 60  0000 C CNN
+F 1 "SIDE_SW" H 9950 1400 60  0000 C CNN
+F 2 "footprints:B3U_3000PB" H 10349 1338 60  0001 C CNN
+F 3 "" H 10349 1338 60  0000 C CNN
+F 4 "Tactile Switch SPST-NO Side Actuated Surface Mount" H 250 -4550 50  0001 C CNN "Desc"
+F 5 "SW1256DKR-ND" H 250 -4550 50  0001 C CNN "digikey#"
+F 6 "Omron Electronics Inc-EMC Div" H 250 -4550 50  0001 C CNN "manf"
+F 7 "B3U-3000P-B" V 10350 1300 60  0001 C CNN "manf#"
+	1    10350 1300
+	-1   0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V021
+U 1 1 580E5F67
+P 3450 4700
+F 0 "#+3.3V021" H 3450 4970 50  0001 C CNN
+F 1 "+3.3V" H 3450 4900 50  0000 C CNN
+F 2 "" H 3650 4700 50  0000 C CNN
+F 3 "" H 3650 4700 50  0000 C CNN
+	1    3450 4700
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V022
+U 1 1 580E62A8
+P 700 2850
+F 0 "#+3.3V022" H 700 3120 50  0001 C CNN
+F 1 "+3.3V" H 700 3050 50  0000 C CNN
+F 2 "" H 900 2850 50  0000 C CNN
+F 3 "" H 900 2850 50  0000 C CNN
+	1    700  2850
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V023
+U 1 1 580E64EE
+P 7050 4800
+F 0 "#+3.3V023" H 7050 5070 50  0001 C CNN
+F 1 "+3.3V" H 7050 5000 50  0000 C CNN
+F 2 "" H 7250 4800 50  0000 C CNN
+F 3 "" H 7250 4800 50  0000 C CNN
+	1    7050 4800
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V024
+U 1 1 580E6599
+P 4200 2950
+F 0 "#+3.3V024" H 4200 3220 50  0001 C CNN
+F 1 "+3.3V" H 4200 3150 50  0000 C CNN
+F 2 "" H 4400 2950 50  0000 C CNN
+F 3 "" H 4400 2950 50  0000 C CNN
+	1    4200 2950
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V025
+U 1 1 580E67C2
+P 11000 2900
+F 0 "#+3.3V025" H 11000 3170 50  0001 C CNN
+F 1 "+3.3V" H 11000 3100 50  0000 C CNN
+F 2 "" H 11200 2900 50  0000 C CNN
+F 3 "" H 11200 2900 50  0000 C CNN
+	1    11000 2900
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V026
+U 1 1 580E6845
+P 7500 2850
+F 0 "#+3.3V026" H 7500 3120 50  0001 C CNN
+F 1 "+3.3V" H 7500 3050 50  0000 C CNN
+F 2 "" H 7700 2850 50  0000 C CNN
+F 3 "" H 7700 2850 50  0000 C CNN
+	1    7500 2850
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V027
+U 1 1 580E6918
+P 7850 2850
+F 0 "#+3.3V027" H 7850 3120 50  0001 C CNN
+F 1 "+3.3V" H 7850 3050 50  0000 C CNN
+F 2 "" H 8050 2850 50  0000 C CNN
+F 3 "" H 8050 2850 50  0000 C CNN
+	1    7850 2850
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V028
+U 1 1 580E7995
+P 2800 6850
+F 0 "#+3.3V028" H 2800 7120 50  0001 C CNN
+F 1 "+3.3V" H 2800 7050 50  0000 C CNN
+F 2 "" H 3000 6850 50  0000 C CNN
+F 3 "" H 3000 6850 50  0000 C CNN
+	1    2800 6850
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V029
+U 1 1 580E7A15
+P 5250 5000
+F 0 "#+3.3V029" H 5250 5270 50  0001 C CNN
+F 1 "+3.3V" H 5250 5200 50  0000 C CNN
+F 2 "" H 5450 5000 50  0000 C CNN
+F 3 "" H 5450 5000 50  0000 C CNN
+	1    5250 5000
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V030
+U 1 1 580E8225
+P 9950 900
+F 0 "#+3.3V030" H 9950 1170 50  0001 C CNN
+F 1 "+3.3V" H 9950 1100 50  0000 C CNN
+F 2 "" H 10150 900 50  0000 C CNN
+F 3 "" H 10150 900 50  0000 C CNN
+	1    9950 900
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR031
+U 1 1 580EAE09
+P 2200 4950
+F 0 "#PWR031" H 2200 4700 50  0001 C CNN
+F 1 "GND" H 2200 4800 50  0000 C CNN
+F 2 "" H 2200 4950 50  0000 C CNN
+F 3 "" H 2200 4950 50  0000 C CNN
+	1    2200 4950
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR032
+U 1 1 580EDD61
+P 2400 7450
+F 0 "#PWR032" H 2400 7200 50  0001 C CNN
+F 1 "GND" H 2400 7300 50  0000 C CNN
+F 2 "" H 2400 7450 50  0000 C CNN
+F 3 "" H 2400 7450 50  0000 C CNN
+	1    2400 7450
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V033
+U 1 1 580EE142
+P 800 6850
+F 0 "#+3.3V033" H 800 7120 50  0001 C CNN
+F 1 "+3.3V" H 800 7050 50  0000 C CNN
+F 2 "" H 1000 6850 50  0000 C CNN
+F 3 "" H 1000 6850 50  0000 C CNN
+	1    800  6850
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V034
+U 1 1 580F82B5
+P 7100 2850
+F 0 "#+3.3V034" H 7100 3120 50  0001 C CNN
+F 1 "+3.3V" H 7050 3050 50  0000 C CNN
+F 2 "" H 7300 2850 50  0000 C CNN
+F 3 "" H 7300 2850 50  0000 C CNN
+	1    7100 2850
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:MKL03Z32CAF4R U4
+U 1 1 580FD5C4
+P 4500 2850
+F 0 "U4" H 4700 3100 60  0000 L CNN
+F 1 "MKL03Z32CAF4R" H 4700 3000 60  0000 L CNN
+F 2 "footprints:MKL03Z32CAF4R" H 4500 2350 60  0001 C CNN
+F 3 "" H 4500 2350 60  0000 C CNN
+F 4 "ARM Cortex-M0+ Kinetis KL03 Microcontroller IC 32-Bit 48MHz 32KB (32K x 8) FLASH 20-WLCSP" H 0   -550 50  0001 C CNN "Desc"
+F 5 "MKL03Z32CAF4RTR-ND " H 0   -550 50  0001 C CNN "digikey#"
+F 6 "Freescale Semiconductor NXP" H 0   -550 50  0001 C CNN "manf"
+F 7 "MKL03Z32CAF4R" H 4500 2850 60  0001 C CNN "manf#"
+F 8 "841-MKL03Z32CAF4R " H 4500 2850 60  0001 C CNN "mouser#"
+	1    4500 2850
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:LBCA2HNZYZ-711 U5
+U 1 1 5812513F
+P 1400 3300
+F 0 "U5" H 1250 4100 60  0000 R CNN
+F 1 "LBCA2HNZYZ-711" H 1900 4000 60  0000 R CNN
+F 2 "footprints:LBCA2A2HNZYZ-711" H 1400 2300 60  0001 C CNN
+F 3 "" H 1400 2300 60  0000 C CNN
+F 4 "RF TXRX MOD BLUETOOTH CHIP ANT" H 0   -550 50  0001 C CNN "Desc"
+F 5 "490-10561-1-ND" H 0   -550 50  0001 C CNN "digikey#"
+F 6 "Murata Electronics North America" H 0   -550 50  0001 C CNN "manf"
+F 7 "LBCA2HNZYZ-711" H 1400 3300 60  0001 C CNN "manf#"
+	1    1400 3300
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:DF12D-3.0-10DP-0.5V-81 J1
+U 1 1 5817923E
+P 1000 6950
+F 0 "J1" H 1200 7200 60  0000 L CNN
+F 1 "DF12D-3.0-10DP-0.5V-81" H 1050 7100 60  0000 L CNN
+F 2 "footprints:df12(3.0)-10dp-0.5v" H 1000 6950 39  0001 C CNN
+F 3 "" H 1000 6950 39  0000 C CNN
+F 4 "10 Position Connector Header Surface Mount" H 0   0   50  0001 C CNN "Desc"
+F 5 "H11736CT-ND " H 0   0   50  0001 C CNN "digikey#"
+F 6 "Hirose Electric Co Ltd" H 0   0   50  0001 C CNN "manf"
+F 7 "DF12D-3.0-10DP-0.5V-81" H 1000 6950 60  0001 C CNN "manf#"
+	1    1000 6950
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:DF12D-3.0-10DP-0.5V-81 J2
+U 1 1 581792E1
+P 3000 6950
+F 0 "J2" H 3200 7200 60  0000 L CNN
+F 1 "DF12D-3.0-10DP-0.5V-81" H 2950 7100 60  0000 L CNN
+F 2 "footprints:df12(3.0)-10dp-0.5v" H 3000 6950 39  0001 C CNN
+F 3 "" H 3000 6950 39  0000 C CNN
+F 4 "10 Position Connector Header Surface Mount" H 0   0   50  0001 C CNN "Desc"
+F 5 "H11736CT-ND" H -50 0   50  0001 C CNN "digikey#"
+F 6 "Hirose Electric Co Ltd" H -50 0   50  0001 C CNN "manf"
+F 7 "DF12D-3.0-10DP-0.5V-81" H 3000 6950 60  0001 C CNN "manf#"
+	1    3000 6950
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:R_Small R7
+U 1 1 581CF6FF
+P 7850 3050
+F 0 "R7" H 7900 3150 50  0000 L CNN
+F 1 "10K" H 7900 2900 50  0000 L CNN
+F 2 "footprints:r_0201" H 7850 3050 50  0001 C CNN
+F 3 "" H 7850 3050 50  0000 C CNN
+F 4 "RES SMD 10K OHM 5% 1/20W 0201" H 300 -550 50  0001 C CNN "Desc"
+F 5 "311-10KNCT-ND" H 300 -550 50  0001 C CNN "digikey#"
+F 6 "Yageo" H 300 -550 50  0001 C CNN "manf"
+F 7 "RC0201JR-0710KL" H 300 -550 50  0001 C CNN "manf#"
+	1    7850 3050
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:R_Small R6
+U 1 1 581CF8EC
+P 7500 3050
+F 0 "R6" H 7550 3150 50  0000 L CNN
+F 1 "10K" H 7550 2900 50  0000 L CNN
+F 2 "footprints:r_0201" H 7500 3050 50  0001 C CNN
+F 3 "" H 7500 3050 50  0000 C CNN
+F 4 "RES SMD 10K OHM 5% 1/20W 0201" H 200 -550 50  0001 C CNN "Desc"
+F 5 "311-10KNCT-ND" H 200 -550 50  0001 C CNN "digikey#"
+F 6 "Yageo" H 200 -550 50  0001 C CNN "manf"
+F 7 "RC0201JR-0710KL" H 200 -550 50  0001 C CNN "manf#"
+	1    7500 3050
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:R_Small R5
+U 1 1 581CF9AB
+P 7100 3050
+F 0 "R5" H 7150 3150 50  0000 L CNN
+F 1 "4.7K" H 7150 2900 50  0000 L CNN
+F 2 "footprints:r_0201" H 7100 3050 50  0001 C CNN
+F 3 "" H 7100 3050 50  0000 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/20W 0201" H 0   -550 50  0001 C CNN "Desc"
+F 5 "311-4.7KNCT-ND" H 0   -550 50  0001 C CNN "digikey#"
+F 6 "Yageo" H 0   -550 50  0001 C CNN "manf"
+F 7 "RC0201JR-074K7L" H 0   -550 50  0001 C CNN "manf#"
+	1    7100 3050
+	1    0    0    -1
+$EndComp
+Text Notes 5600 6850 0    121  ~ 24
+POWER_FLAGS
+Text Label 10350 3050 0    60   ~ 0
+VDDIO
+Text Label 7550 3500 0    60   ~ 0
+SDA
+Text Label 7650 3400 0    60   ~ 0
+SCL
+Text Label 3300 3350 0    39   ~ 0
+BT_UART0_RX
+Text Label 3300 3450 0    39   ~ 0
+BT_UART0_TX
+Text Label 6800 3550 2    39   ~ 0
+PTA9
+Text Label 6950 3850 2    39   ~ 0
+LED_R_MCU
+Text Notes 3250 6650 0    59   ~ 12
+AUX. GPIO \n\n
+Text Label 8000 4100 0    39   ~ 0
+EXT_WAKE_UP
+Text Label 6900 2850 2    39   ~ 0
+SPIO_MISO
+Text Label 6900 2950 2    39   ~ 0
+SPIO_MOSI
+Text Label 6900 3050 2    39   ~ 0
+SPIO_SCK
+Text Label 4300 6950 2    39   ~ 0
+SPIO_MISO
+Text Label 4300 7050 2    39   ~ 0
+SPIO_MOSI
+Text Label 4300 7150 2    39   ~ 0
+SPIO_SCK
+Text Label 7000 3250 2    39   ~ 0
+EXT_WAKE_UP
+Text Label 4250 3650 0    39   ~ 0
+~RESET_b
+Text Label 5550 5400 2    39   ~ 0
+~RESET_b
+Text Label 6800 3750 2    39   ~ 0
+RST_BT
+Text Label 650  7150 0    39   ~ 0
+SWD_DIO_BT
+Text Label 650  7250 0    39   ~ 0
+SWD_CLK_BT
+Text Label 650  7050 0    39   ~ 0
+Vpp
+Text Label 1100 3350 0    39   ~ 0
+SWD_DIO_BT
+Text Label 1100 3450 0    39   ~ 0
+SWD_CLK_BT
+Text Label 650  7350 0    39   ~ 0
+RST_BT
+Text Label 8150 3300 0    61   ~ 0
+VDDIO
+Text Label 6800 3650 2    39   ~ 0
+STAT
+Text Label 9700 1300 0    39   ~ 0
+PTA9
+Text Label 2750 7050 0    39   ~ 0
+~RESET_b
+Text Label 9500 5800 0    39   ~ 0
+LED_R_MCU
+Text Label 9500 6200 0    39   ~ 0
+LED_G_MCU
+Text Notes 5050 5000 0    59   ~ 12
+Reset MCU\n\n\n\n
+Text Notes 10150 5550 0    55   ~ 11
+LED RGB MCU\n
+Text Notes 10200 750  0    55   ~ 11
+Push-button
+Text Label 2400 7150 2    39   ~ 0
+SWD_DIO_MCU
+Text Label 2400 7250 2    39   ~ 0
+SWD_CLK_MCU
+Text Notes 1300 6550 0    59   ~ 12
+DEBUGGER\n
+Text Label 2400 7050 2    39   ~ 0
+~RESET_b
+Text Label 4100 3750 0    39   ~ 0
+SWD_DIO_MCU
+Text Label 4100 3850 0    39   ~ 0
+SWD_CLK_MCU
+Text Label 6900 3150 2    39   ~ 0
+SPI0_SS_b
+Text Label 4300 7250 2    39   ~ 0
+SPI0_SS_b
+Text Label 6950 3950 2    39   ~ 0
+LED_G_MCU
+Text Notes 3000 3000 0    39   ~ 0
+Los Pines TX y RX estan \nreferenciados respecto\nal modulo BT\n
+Text Notes 5500 2450 0    81   ~ 16
+MCU
+Text Notes 8900 2350 0    81   ~ 16
+ACCELEROMETER
+Text Notes 1850 850  0    81   ~ 16
+\n
+Text Notes 5650 5150 0    39   ~ 0
+Reset de MCU con pull-up \nInterno recomienda uno externo. \n
+Text Label 1100 3550 0    39   ~ 0
+Vpp
+Text Label 2750 7150 0    60   ~ 0
+SCL
+Text Label 2750 7250 0    60   ~ 0
+SDA
+Wire Wire Line
+	6000 7150 6350 7150
+Wire Wire Line
+	6000 7500 6350 7500
+Wire Notes Line
+	5500 6600 6900 6600
+Wire Notes Line
+	6900 7700 5500 7700
+Wire Wire Line
+	700  2900 1400 2900
+Wire Wire Line
+	4200 2950 4500 2950
+Wire Wire Line
+	4500 4050 4200 4050
+Wire Wire Line
+	10300 4050 10600 4050
+Wire Wire Line
+	11000 2900 11000 2950
+Wire Wire Line
+	7650 4300 7650 4250
+Wire Wire Line
+	11000 3350 11000 3200
+Wire Wire Line
+	10650 3350 10650 3300
+Wire Wire Line
+	10300 2950 10650 2950
+Wire Wire Line
+	10300 3050 10350 3050
+Wire Wire Line
+	10300 3550 10650 3550
+Wire Wire Line
+	10650 3550 10650 3750
+Wire Wire Line
+	6600 3450 7100 3450
+Wire Wire Line
+	7100 3450 7100 3500
+Wire Wire Line
+	7100 3500 7500 3500
+Wire Wire Line
+	6600 3350 7200 3350
+Wire Wire Line
+	7200 3350 7200 3400
+Wire Wire Line
+	7200 3400 7850 3400
+Wire Wire Line
+	7500 3150 7500 3500
+Wire Wire Line
+	7850 3150 7850 3400
+Wire Wire Line
+	7500 2950 7500 2850
+Wire Wire Line
+	7850 2850 7850 2950
+Wire Wire Line
+	3000 3350 3850 3350
+Wire Wire Line
+	3000 3450 3850 3450
+Wire Wire Line
+	4100 3750 4500 3750
+Wire Wire Line
+	4100 3850 4500 3850
+Wire Wire Line
+	3000 6950 2800 6950
+Wire Wire Line
+	2800 6950 2800 6850
+Wire Wire Line
+	4000 7350 4200 7350
+Wire Wire Line
+	4200 7350 4200 7450
+Wire Wire Line
+	6600 3550 6800 3550
+Wire Wire Line
+	6600 3650 6800 3650
+Wire Wire Line
+	4000 6950 4300 6950
+Wire Wire Line
+	4000 7050 4300 7050
+Wire Wire Line
+	4000 7150 4300 7150
+Wire Wire Line
+	6600 3950 6950 3950
+Wire Wire Line
+	7050 5100 7050 5150
+Wire Wire Line
+	7050 4800 7050 4850
+Wire Wire Line
+	7300 4900 7300 4850
+Wire Wire Line
+	7300 4850 7050 4850
+Wire Wire Line
+	7050 5150 7300 5150
+Wire Wire Line
+	7300 5150 7300 5100
+Wire Wire Line
+	3450 5000 3450 5050
+Wire Wire Line
+	3450 4700 3450 4750
+Wire Wire Line
+	3700 4800 3700 4750
+Wire Wire Line
+	3700 4750 3450 4750
+Wire Wire Line
+	3450 5050 3700 5050
+Wire Wire Line
+	3700 5050 3700 5000
+Wire Wire Line
+	8150 3300 8300 3300
+Wire Wire Line
+	7650 3900 7650 4050
+Wire Wire Line
+	6600 2850 6900 2850
+Wire Wire Line
+	6600 2950 6900 2950
+Wire Wire Line
+	6600 3050 6900 3050
+Wire Wire Line
+	8000 4100 8400 4100
+Wire Wire Line
+	7100 3250 6600 3250
+Wire Wire Line
+	4500 3650 4250 3650
+Wire Wire Line
+	5250 5250 5250 5400
+Wire Wire Line
+	5250 5400 5550 5400
+Wire Wire Line
+	5650 5500 5650 5550
+Wire Wire Line
+	5250 5500 5650 5500
+Wire Wire Line
+	1400 3350 1100 3350
+Wire Wire Line
+	1400 3450 1100 3450
+Wire Wire Line
+	1400 3550 1100 3550
+Wire Wire Line
+	700  2850 700  2900
+Wire Wire Line
+	700  3250 700  3400
+Wire Wire Line
+	10300 3450 10350 3450
+Wire Wire Line
+	10350 3450 10350 3050
+Wire Wire Line
+	3000 7050 2750 7050
+Wire Wire Line
+	10950 6000 10900 6000
+Wire Wire Line
+	10300 6200 10200 6200
+Wire Wire Line
+	10300 5800 10200 5800
+Wire Wire Line
+	9500 5800 10000 5800
+Wire Wire Line
+	9500 6200 10000 6200
+Wire Notes Line
+	9450 6450 11100 6450
+Wire Notes Line
+	9450 6450 9450 5450
+Wire Notes Line
+	9450 5450 11100 5450
+Wire Notes Line
+	11100 5450 11100 6450
+Wire Wire Line
+	10600 1300 10600 1700
+Wire Wire Line
+	9950 1600 9950 1700
+Wire Notes Line
+	9600 650  9600 1950
+Wire Notes Line
+	9600 1950 11000 1950
+Wire Notes Line
+	11000 1950 11000 650
+Wire Notes Line
+	11000 650  9600 650
+Wire Wire Line
+	9950 1000 9950 900
+Wire Wire Line
+	10150 1300 9950 1300
+Wire Wire Line
+	10550 1300 10600 1300
+Wire Wire Line
+	9950 1200 9950 1300
+Wire Wire Line
+	1400 3700 1250 3700
+Wire Wire Line
+	1250 3700 1250 3800
+Wire Wire Line
+	1400 3800 1250 3800
+Wire Wire Line
+	1400 3900 1250 3900
+Wire Wire Line
+	1400 4000 1250 4000
+Wire Wire Line
+	1400 4100 1250 4100
+Wire Wire Line
+	1400 4200 1250 4200
+Wire Wire Line
+	1400 4300 1250 4300
+Wire Wire Line
+	1400 4400 1250 4400
+Wire Wire Line
+	1400 4500 1250 4500
+Wire Wire Line
+	1950 4800 1950 4900
+Wire Wire Line
+	1950 4900 2050 4900
+Wire Wire Line
+	2450 4900 2450 4800
+Wire Wire Line
+	2050 4800 2050 4900
+Wire Wire Line
+	2150 4800 2150 4900
+Wire Wire Line
+	2250 4800 2250 4900
+Wire Wire Line
+	2350 4800 2350 4900
+Wire Wire Line
+	2200 4900 2200 4950
+Wire Wire Line
+	1000 6950 800  6950
+Wire Wire Line
+	800  6950 800  6850
+Wire Wire Line
+	2000 7350 2400 7350
+Wire Wire Line
+	2400 7350 2400 7450
+Wire Wire Line
+	1000 7150 650  7150
+Wire Wire Line
+	1000 7250 650  7250
+Wire Wire Line
+	2000 7050 2400 7050
+Wire Wire Line
+	2000 7150 2400 7150
+Wire Wire Line
+	2000 7250 2400 7250
+Wire Notes Line
+	600  7700 2500 7700
+Wire Notes Line
+	600  7700 600  6450
+Wire Notes Line
+	600  6450 2500 6450
+Wire Notes Line
+	2500 6450 2500 7700
+Wire Wire Line
+	1000 7350 650  7350
+Wire Wire Line
+	8400 3800 8300 3800
+Wire Wire Line
+	8300 3800 8300 3300
+Wire Wire Line
+	4300 7250 4000 7250
+Wire Notes Line
+	2550 7700 2550 6450
+Wire Notes Line
+	2550 6450 4350 6450
+Wire Notes Line
+	4350 6450 4350 7700
+Wire Notes Line
+	4350 7700 2550 7700
+Wire Wire Line
+	6600 3850 6950 3850
+Wire Wire Line
+	6600 3150 6900 3150
+Wire Wire Line
+	7100 3150 7100 3250
+Wire Wire Line
+	7100 2850 7100 2950
+Wire Wire Line
+	5250 5750 5250 6000
+Wire Wire Line
+	5650 5950 5650 6000
+Wire Wire Line
+	5250 5050 5250 5000
+Wire Wire Line
+	7950 4000 7950 4300
+Wire Notes Line
+	6900 6600 6900 7700
+Wire Notes Line
+	5500 7700 5500 6600
+Wire Wire Line
+	1000 7050 650  7050
+Wire Wire Line
+	3000 7150 2750 7150
+Wire Wire Line
+	3000 7250 2750 7250
+Connection ~ 11000 2950
+Connection ~ 10650 3050
+Connection ~ 7500 3500
+Connection ~ 7850 3400
+Connection ~ 7050 4850
+Connection ~ 7050 5150
+Connection ~ 3450 4750
+Connection ~ 3450 5050
+Connection ~ 5250 5400
+Connection ~ 5250 5500
+Connection ~ 700  2900
+Connection ~ 10350 3050
+Connection ~ 9950 1300
+Connection ~ 1250 3800
+Connection ~ 1250 3900
+Connection ~ 1250 4000
+Connection ~ 1250 4100
+Connection ~ 1250 4200
+Connection ~ 1250 4300
+Connection ~ 1250 4400
+Connection ~ 1250 4500
+Connection ~ 2050 4900
+Connection ~ 2150 4900
+Connection ~ 2250 4900
+Connection ~ 2350 4900
+Connection ~ 2200 4900
+Connection ~ 8300 3300
+NoConn ~ 9250 2550
+NoConn ~ 9350 2550
+NoConn ~ 9450 2550
+NoConn ~ 9550 2550
+NoConn ~ 9200 4450
+NoConn ~ 9300 4450
+NoConn ~ 9400 4450
+NoConn ~ 9500 4450
+NoConn ~ 9600 4450
+NoConn ~ 10300 3650
+NoConn ~ 8400 2950
+NoConn ~ 8400 3050
+NoConn ~ 2450 2500
+NoConn ~ 2350 2500
+NoConn ~ 2250 2500
+NoConn ~ 3000 3250
+NoConn ~ 3000 3750
+NoConn ~ 3000 3850
+NoConn ~ 3000 4150
+NoConn ~ 2000 6950
+$Sheet
+S 7650 750  1100 1050
+U 586FE5CB
+F0 "Power Supply" 79
+F1 "Power.sch" 79
+F2 "STAT" O R 8750 1600 39
+$EndSheet
+$Comp
+L template-rescue:C_Small C19
+U 1 1 58709388
+P 2700 1850
+F 0 "C19" V 2600 1900 50  0000 L CNN
+F 1 "DNP" V 2800 1900 50  0000 L CNN
+F 2 "footprints:c_0402" H 2700 1850 50  0001 C CNN
+F 3 "" H 2700 1850 50  0000 C CNN
+	1    2700 1850
+	0    1    1    0
+$EndComp
+$Comp
+L template-rescue:C_Small C21
+U 1 1 58709392
+P 2700 2250
+F 0 "C21" V 2600 2300 50  0000 L CNN
+F 1 "DNP" V 2800 2300 50  0000 L CNN
+F 2 "footprints:c_0402" H 2700 2250 50  0001 C CNN
+F 3 "" H 2700 2250 50  0000 C CNN
+	1    2700 2250
+	0    1    1    0
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR035
+U 1 1 58709398
+P 3100 2350
+F 0 "#PWR035" H 3100 2100 50  0001 C CNN
+F 1 "GND" H 3100 2200 50  0000 C CNN
+F 2 "" H 3100 2350 50  0000 C CNN
+F 3 "" H 3100 2350 50  0000 C CNN
+	1    3100 2350
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR036
+U 1 1 5870940B
+P 3100 1950
+F 0 "#PWR036" H 3100 1700 50  0001 C CNN
+F 1 "GND" H 3100 1800 50  0000 C CNN
+F 2 "" H 3100 1950 50  0000 C CNN
+F 3 "" H 3100 1950 50  0000 C CNN
+	1    3100 1950
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:R_Small R14
+U 1 1 58709A0B
+P 2200 2050
+F 0 "R14" H 2250 2150 50  0000 L CNN
+F 1 "0 ohm" H 2250 1950 50  0000 L CNN
+F 2 "footprints:r_0402" H 2200 2050 50  0001 C CNN
+F 3 "" H 2200 2050 50  0000 C CNN
+F 4 "311-0.0JRTR-ND " H 2200 2050 60  0001 C CNN "digikey#"
+F 5 "Yageo" H 2200 2050 60  0001 C CNN "manf"
+F 6 "RC0402JR-070RL" H 2200 2050 60  0001 C CNN "manf#"
+F 7 "RES SMD 0.0OHM JUMPER 1/16W 0402" H 2200 2050 60  0001 C CNN "Desc"
+	1    2200 2050
+	1    0    0    -1
+$EndComp
+Wire Wire Line
+	2800 1850 3100 1850
+Wire Wire Line
+	3100 1850 3100 1950
+Wire Wire Line
+	2800 2250 3100 2250
+Wire Wire Line
+	3100 2250 3100 2350
+Wire Wire Line
+	2200 1950 2200 1850
+Wire Wire Line
+	2050 1850 2200 1850
+Wire Wire Line
+	2150 2250 2200 2250
+Connection ~ 2200 2250
+Connection ~ 2200 1850
+Wire Wire Line
+	2150 2500 2150 2250
+Wire Wire Line
+	2200 2250 2200 2150
+Wire Wire Line
+	2050 1850 2050 2500
+Text Notes 3250 2200 0    39   ~ 0
+Arreglo de una red  Pi que recomienda el fabricante\npor si hay que balancear la antena interna del modulo.
+$Comp
+L template-rescue:Crystal_Small Y1
+U 1 1 58743266
+P 1250 2000
+F 0 "Y1" V 1250 1850 50  0000 C CNN
+F 1 "32,768 kHz" V 1250 2300 50  0000 C CNN
+F 2 "footprints:ABS05-32.768KHZ-9-T" H 1250 2000 50  0001 C CNN
+F 3 "" H 1250 2000 50  0000 C CNN
+F 4 "535-11897-1-ND" V 1250 2000 60  0001 C CNN "digikey#"
+F 5 "Abracon LLC" V 1250 2000 60  0001 C CNN "manf"
+F 6 "ABS05-32.768KHZ-9-T" V 1250 2000 60  0001 C CNN "manf#"
+F 7 "CRYSTAL 32.7680KHZ 9PF SMD" V 1250 2000 60  0001 C CNN "Desc"
+	1    1250 2000
+	0    1    1    0
+$EndComp
+Wire Wire Line
+	1400 3100 1100 3100
+Wire Wire Line
+	1400 3200 1100 3200
+Text Label 1100 3100 0    39   ~ 0
+XTAL32KP
+Text Label 1100 3200 0    39   ~ 0
+XTAL32KM
+Wire Wire Line
+	1250 1900 1250 1850
+Wire Wire Line
+	1150 1850 1250 1850
+Wire Wire Line
+	1250 2100 1250 2150
+Wire Wire Line
+	1150 2150 1250 2150
+Text Label 1550 1850 2    39   ~ 0
+XTAL32KP
+Text Label 1550 2150 2    39   ~ 0
+XTAL32KM
+$Comp
+L template-rescue:C_Small C18
+U 1 1 58744C32
+P 1050 1850
+F 0 "C18" V 950 1650 50  0000 L CNN
+F 1 "22pF" V 1150 1650 50  0000 L CNN
+F 2 "footprints:c_0402" H 1050 1850 50  0001 C CNN
+F 3 "" H 1050 1850 50  0000 C CNN
+F 4 "732-7427-1-ND  " V 1050 1850 60  0001 C CNN "digikey#"
+F 5 "885012005009" V 1050 1850 60  0001 C CNN "manf#"
+F 6 "Wurth Electronics Inc" V 1050 1850 60  0001 C CNN "manf"
+F 7 "CAP CER 22PF 10V NP0 0402" V 1050 1850 60  0001 C CNN "Desc"
+	1    1050 1850
+	0    1    1    0
+$EndComp
+$Comp
+L template-rescue:C_Small C20
+U 1 1 58744EE3
+P 1050 2150
+F 0 "C20" V 1000 1950 50  0000 L CNN
+F 1 "22pF" V 1150 1950 50  0000 L CNN
+F 2 "footprints:c_0402" H 1050 2150 50  0001 C CNN
+F 3 "" H 1050 2150 50  0000 C CNN
+F 4 "732-7427-1-ND " V 1050 2150 60  0001 C CNN "digikey#"
+F 5 "Wurth Electronics Inc" V 1050 2150 60  0001 C CNN "manf"
+F 6 "885012005009" V 1050 2150 60  0001 C CNN "manf#"
+F 7 "CAP CER 22PF 10V NP0 0402" V 1050 2150 60  0001 C CNN "Desc"
+	1    1050 2150
+	0    1    1    0
+$EndComp
+Connection ~ 1250 1850
+Connection ~ 1250 2150
+$Comp
+L template-rescue:GND-RESCUE-versionA #PWR037
+U 1 1 58746049
+P 750 2300
+F 0 "#PWR037" H 750 2050 50  0001 C CNN
+F 1 "GND" H 750 2150 50  0000 C CNN
+F 2 "" H 750 2300 50  0000 C CNN
+F 3 "" H 750 2300 50  0000 C CNN
+	1    750  2300
+	1    0    0    -1
+$EndComp
+Wire Wire Line
+	950  1850 750  1850
+Wire Wire Line
+	750  1850 750  2150
+Wire Wire Line
+	950  2150 750  2150
+Connection ~ 750  2150
+Text Notes 7850 1200 0    59   ~ 0
+POWER SUPPLY
+Text Label 8950 1600 2    39   ~ 0
+STAT
+Wire Wire Line
+	8750 1600 8950 1600
+Text Label 3250 4450 2    39   ~ 0
+RST_BT
+Wire Wire Line
+	3250 4450 3000 4450
+Wire Wire Line
+	10650 2950 10650 3050
+Connection ~ 10650 2950
+Wire Wire Line
+	8400 4000 7950 4000
+Wire Wire Line
+	8400 3900 7650 3900
+Text Notes 650  1250 0    197  ~ 39
+STOPi\nhttps://STOPs.top
+$Comp
+L template-rescue:R_Small R12
+U 1 1 58B7E561
+P 10100 6000
+F 0 "R12" V 10050 5750 50  0000 L CNN
+F 1 "220" V 10150 5750 50  0000 L CNN
+F 2 "footprints:r_0201" H 10100 6000 50  0001 C CNN
+F 3 "" H 10100 6000 50  0000 C CNN
+F 4 "RES SMD 220 OHM 5 1/20W 0201" H 2000 -250 50  0001 C CNN "Desc"
+F 5 "311-220NCT-ND" H 2000 -250 50  0001 C CNN "digikey#"
+F 6 "Yageo" H 2000 -250 50  0001 C CNN "manf"
+F 7 "RC0201JR-07220RL" V 10100 6000 60  0001 C CNN "manf#"
+	1    10100 6000
+	0    1    1    0
+$EndComp
+Wire Wire Line
+	10300 6000 10200 6000
+Wire Wire Line
+	9500 6000 10000 6000
+Text Label 9500 6000 0    39   ~ 0
+LED_B_MCU
+Wire Wire Line
+	6800 3750 6600 3750
+NoConn ~ 3000 7350
+Text Label 6950 4050 2    39   ~ 0
+LED_B_MCU
+Wire Wire Line
+	6600 4050 6950 4050
+NoConn ~ 3000 3950
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V038
+U 1 1 58BDDA70
+P 10950 5750
+F 0 "#+3.3V038" H 10950 6020 50  0001 C CNN
+F 1 "+3.3V" H 10950 5950 50  0000 C CNN
+F 2 "" H 11150 5750 50  0000 C CNN
+F 3 "" H 11150 5750 50  0000 C CNN
+	1    10950 5750
+	1    0    0    -1
+$EndComp
+Wire Wire Line
+	10950 5750 10950 6000
+$Comp
+L template-rescue:LED_RABG D3
+U 1 1 58BDE472
+P 1450 5850
+F 0 "D3" H 1350 6200 50  0000 C CNN
+F 1 "LED_RABG" H 1475 5500 50  0000 C CNN
+F 2 "footprints:SML-LX0404SIUPGUSB" H 1400 5800 50  0001 C CNN
+F 3 "" H 1400 5800 50  0000 C CNN
+F 4 "(RGB) LED Indication" H -7150 -200 50  0001 C CNN "Desc"
+F 5 "67-2125-1-ND" H -7150 -200 50  0001 C CNN "digikey#"
+F 6 "Lumex Opto/Components Inc. " H -7150 -200 50  0001 C CNN "manf"
+F 7 "SML-LX0404SIUPGUSB" H 1450 5850 60  0001 C CNN "manf#"
+	1    1450 5850
+	1    0    0    -1
+$EndComp
+Text Label 850  6050 0    39   ~ 0
+LED_G_BT
+Text Notes 1100 5400 0    55   ~ 11
+LED RGB BT\n
+Wire Wire Line
+	1800 5850 1750 5850
+Wire Notes Line
+	2100 6300 650  6300
+Wire Notes Line
+	650  6300 650  5300
+Wire Notes Line
+	650  5300 2100 5300
+Wire Notes Line
+	2100 5300 2100 6300
+Text Label 850  5850 0    39   ~ 0
+LED_B_BT
+$Comp
+L template-rescue:+3.3V-RESCUE-versionA #+3.3V039
+U 1 1 58BDE491
+P 1800 5600
+F 0 "#+3.3V039" H 1800 5870 50  0001 C CNN
+F 1 "+3.3V" H 1800 5800 50  0000 C CNN
+F 2 "" H 2000 5600 50  0000 C CNN
+F 3 "" H 2000 5600 50  0000 C CNN
+	1    1800 5600
+	1    0    0    -1
+$EndComp
+Text Label 850  5650 0    39   ~ 0
+LED_R_BT
+Wire Wire Line
+	1150 6050 850  6050
+Wire Wire Line
+	1150 5850 850  5850
+Wire Wire Line
+	1150 5650 850  5650
+Wire Wire Line
+	1800 5650 1800 5600
+$Comp
+L template-rescue:R_Small R19
+U 1 1 58BE0AEC
+P 1800 5750
+F 0 "R19" H 1600 5650 50  0000 L CNN
+F 1 "330" H 1600 5850 50  0000 L CNN
+F 2 "footprints:r_0201" H 1800 5750 50  0001 C CNN
+F 3 "" H 1800 5750 50  0000 C CNN
+F 4 "RES SMD 330 OHM 5% 1/20W 0201 " H -6300 -100 50  0001 C CNN "Desc"
+F 5 "311-330NCT-ND " H -6300 -100 50  0001 C CNN "digikey#"
+F 6 "Yageo" H -6300 -100 50  0001 C CNN "manf"
+F 7 "RC0201JR-07330RL " V 1800 5750 60  0001 C CNN "manf#"
+	1    1800 5750
+	-1   0    0    1
+$EndComp
+Text Label 3300 4050 2    39   ~ 0
+LED_G_BT
+Text Label 3300 3550 2    39   ~ 0
+LED_B_BT
+Text Label 3300 3650 2    39   ~ 0
+LED_R_BT
+Wire Wire Line
+	3300 4050 3000 4050
+Wire Wire Line
+	3300 3650 3000 3650
+Wire Wire Line
+	3300 3550 3000 3550
+$Comp
+L template-rescue:CONN_1 F1
+U 1 1 58BDDD35
+P 5200 6900
+F 0 "F1" H 5280 6900 40  0000 L CNN
+F 1 "CONN_1" H 5200 6955 30  0001 C CNN
+F 2 "footprints:FIDUCIAL_65MIL" H 5200 6900 60  0001 C CNN
+F 3 "" H 5200 6900 60  0000 C CNN
+	1    5200 6900
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:CONN_1 F2
+U 1 1 58BDDF13
+P 5200 7050
+F 0 "F2" H 5280 7050 40  0000 L CNN
+F 1 "CONN_1" H 5200 7105 30  0001 C CNN
+F 2 "footprints:FIDUCIAL_65MIL" H 5200 7050 60  0001 C CNN
+F 3 "" H 5200 7050 60  0000 C CNN
+	1    5200 7050
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:CONN_1 F3
+U 1 1 58BDDF4D
+P 5200 7200
+F 0 "F3" H 5280 7200 40  0000 L CNN
+F 1 "CONN_1" H 5200 7255 30  0001 C CNN
+F 2 "footprints:FIDUCIAL_65MIL" H 5200 7200 60  0001 C CNN
+F 3 "" H 5200 7200 60  0000 C CNN
+	1    5200 7200
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:CONN_1 F4
+U 1 1 58BDEAE2
+P 4700 7200
+F 0 "F4" H 4780 7200 40  0000 L CNN
+F 1 "CONN_1" H 4700 7255 30  0001 C CNN
+F 2 "footprints:FIDUCIAL_65MIL" H 4700 7200 60  0001 C CNN
+F 3 "" H 4700 7200 60  0000 C CNN
+	1    4700 7200
+	-1   0    0    1
+$EndComp
+$Comp
+L template-rescue:CONN_1 F5
+U 1 1 58BDEAE8
+P 4700 7050
+F 0 "F5" H 4780 7050 40  0000 L CNN
+F 1 "CONN_1" H 4700 7105 30  0001 C CNN
+F 2 "footprints:FIDUCIAL_65MIL" H 4700 7050 60  0001 C CNN
+F 3 "" H 4700 7050 60  0000 C CNN
+	1    4700 7050
+	-1   0    0    1
+$EndComp
+$Comp
+L template-rescue:CONN_1 F6
+U 1 1 58BDEAEE
+P 4700 6900
+F 0 "F6" H 4780 6900 40  0000 L CNN
+F 1 "CONN_1" H 4700 6955 30  0001 C CNN
+F 2 "footprints:FIDUCIAL_65MIL" H 4700 6900 60  0001 C CNN
+F 3 "" H 4700 6900 60  0000 C CNN
+	1    4700 6900
+	-1   0    0    1
+$EndComp
+Text Notes 4750 6650 0    39   ~ 0
+Fiduciales
+Text Notes 4700 6800 0    39   ~ 0
+Top\n
+Text Notes 5000 6800 0    39   ~ 0
+Bottom
+NoConn ~ 4850 6900
+NoConn ~ 4850 7050
+NoConn ~ 4850 7200
+NoConn ~ 5050 6900
+NoConn ~ 5050 7050
+NoConn ~ 5050 7200
+$Comp
+L template-rescue:TESTPOINT TP4
+U 1 1 58BF2804
+P 3850 3250
+F 0 "TP4" H 3850 3520 50  0000 C CNN
+F 1 "TESTPOINT" H 3850 3450 50  0000 C CNN
+F 2 "footprints:TESTPOINT" H 4050 3250 50  0001 C CNN
+F 3 "" H 4050 3250 50  0000 C CNN
+	1    3850 3250
+	1    0    0    -1
+$EndComp
+$Comp
+L template-rescue:TESTPOINT TP5
+U 1 1 58BF3276
+P 3850 3550
+F 0 "TP5" H 3850 3820 50  0000 C CNN
+F 1 "TESTPOINT" H 3850 3750 50  0000 C CNN
+F 2 "footprints:TESTPOINT" H 4050 3550 50  0001 C CNN
+F 3 "" H 4050 3550 50  0000 C CNN
+	1    3850 3550
+	-1   0    0    1
+$EndComp
+Wire Wire Line
+	3850 3550 3850 3450
+Connection ~ 3850 3450
+Wire Wire Line
+	3850 3250 3850 3350
+Connection ~ 3850 3350
+Wire Wire Line
+	11000 2950 11000 3000
+Wire Wire Line
+	10650 3050 10650 3100
+Wire Wire Line
+	7500 3500 8400 3500
+Wire Wire Line
+	7850 3400 8400 3400
+Wire Wire Line
+	7050 4850 7050 4900
+Wire Wire Line
+	7050 5150 7050 5200
+Wire Wire Line
+	3450 4750 3450 4800
+Wire Wire Line
+	3450 5050 3450 5100
+Wire Wire Line
+	5250 5400 5250 5500
+Wire Wire Line
+	5250 5500 5250 5550
+Wire Wire Line
+	700  2900 700  3050
+Wire Wire Line
+	10350 3050 10650 3050
+Wire Wire Line
+	9950 1300 9700 1300
+Wire Wire Line
+	9950 1300 9950 1400
+Wire Wire Line
+	1250 3800 1250 3900
+Wire Wire Line
+	1250 3900 1250 4000
+Wire Wire Line
+	1250 4000 1250 4100
+Wire Wire Line
+	1250 4100 1250 4200
+Wire Wire Line
+	1250 4200 1250 4300
+Wire Wire Line
+	1250 4300 1250 4400
+Wire Wire Line
+	1250 4400 1250 4500
+Wire Wire Line
+	1250 4500 1250 4950
+Wire Wire Line
+	2050 4900 2150 4900
+Wire Wire Line
+	2150 4900 2200 4900
+Wire Wire Line
+	2250 4900 2350 4900
+Wire Wire Line
+	2350 4900 2450 4900
+Wire Wire Line
+	2200 4900 2250 4900
+Wire Wire Line
+	8300 3300 8400 3300
+Wire Wire Line
+	2200 2250 2600 2250
+Wire Wire Line
+	2200 1850 2600 1850
+Wire Wire Line
+	1250 1850 1550 1850
+Wire Wire Line
+	1250 2150 1550 2150
+Wire Wire Line
+	750  2150 750  2300
+Wire Wire Line
+	10650 2950 11000 2950
+Wire Wire Line
+	3850 3450 4500 3450
+Wire Wire Line
+	3850 3350 4500 3350
+$EndSCHEMATC
