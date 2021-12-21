@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.9-73d0e3b20d~88~ubuntu21.04.1)
+(kicad_pcb (version 20211123) (host pcbnew 5.1.12-73d0e3b20d~88~ubuntu21.04.1)
 
   (general
     (thickness 1.6)
@@ -12,12 +12,12 @@
   (page A4)
   (title_block
     (title "Enye mini versión A")
-    (date 2017-01-02)
+    (date 2021-11-22)
     (rev 0.1)
-    (company INTI/Enyetech)
-    (comment 1 "Revisores: Alamon Diego, Brengi Diego,Scotti Noelia")
-    (comment 2 "Licencia: BSD /Readme/LICENSE")
-    (comment 3 "Autor: Villar Santiago")
+    (company STOPs/stopi)
+    (comment 1 "Revisores: Qitas")
+    (comment 2 "Licence: BSD LICENSE")
+    (comment 3 "Autor: Qitas")
   )
 
   (layers

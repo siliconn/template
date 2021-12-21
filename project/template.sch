@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "SPORA - MAIN PAGE"
-Date "2017-01-02"
+Date "2021-11-22"
 Rev "0.1"
-Comp "INSTITUTO NACIONAL DE TECNOLOGÍA INDUSTRIAL & ENYE TECHNOLOGIES"
-Comment1 "Revisions: Alamon Diego, Brengi Diego, Scotti Noelia "
-Comment2 "BSD License.  See LICENSE.txt file"
-Comment3 "Author:  Villar Santiago"
+Comp "STOPs"
+Comment1 "Revisions: QitasTang "
+Comment2 "BSD License"
+Comment3 "Author:  Qitas"
 Comment4 ""
 $EndDescr
 $Comp
